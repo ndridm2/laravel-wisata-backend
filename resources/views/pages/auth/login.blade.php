@@ -1,6 +1,6 @@
 @extends('layouts.auth')
 
-@section('title', 'Login')
+@section('title', 'SignIn')
 
 @push('style')
     <!-- CSS Libraries -->
@@ -67,7 +67,7 @@
         </div>
     </div>
     <div class="text-muted mt-5 text-center">
-        Don't have an account? <a href="auth-register.html">Create One</a>
+        Don't have an account? <a href="auth-register.html">Sign Up</a>
     </div>
 @endsection
 
