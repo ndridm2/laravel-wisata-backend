@@ -25,7 +25,7 @@
                                 <h4>Total Users</h4>
                             </div>
                             <div class="card-body">
-                                10
+
                             </div>
                         </div>
                     </div>
