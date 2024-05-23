@@ -4,17 +4,22 @@
             <a href="index.html">Wisata Project</a>
         </div>
         <div class="sidebar-brand sidebar-brand-sm">
-            <a href="index.html">St</a>
+            <a href="index.html">WS</a>
         </div>
         <ul class="sidebar-menu">
             <li class="nav-item  ">
-                <a href="#" class="nav-link has-dropdown"><i class="fas fa-fire"></i><span>Dashboard</span></a>
+                <a href="{{route('home')}}"><i class="fas fa-fire"></i><span>Dashboard</span></a>
 
             </li>
 
             <li class="nav-item ">
                 <a href="{{ route('users.index') }}" class="nav-link "><i class="fas fa-columns"></i>
                     <span>Users</span></a>
+            </li>
+
+            <li class="nav-item ">
+                <a href="{{ route('categories.index') }}" class="nav-link "><i class="fas fa-columns"></i>
+                    <span>Categories</span></a>
             </li>
     </aside>
 </div>
