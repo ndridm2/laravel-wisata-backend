@@ -29,15 +29,15 @@ class ProductController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-            'category_id' => 'required',
-            'name' => 'required',
-            'description' => 'required',
-            'price' => 'required',
-            'image' => 'required',
-            'criteria' => 'required',
-            'favorite' => 'required',
-            'status' => 'required',
-            'stock' => 'required',
+            'category_id'   => 'required',
+            'name'          => 'required',
+            'description'   => 'required',
+            'price'         => 'required',
+            'image'         => 'required',
+            'criteria'      => 'required',
+            'favorite'      => 'required',
+            'status'        => 'required',
+            'stock'         => 'required',
         ]);
 
         $product = new Product;

@@ -27,9 +27,9 @@
                 </div>
                 <h2 class="section-title">Order Detail</h2>
                 <p class="section-lead">
-                <div>Total Price {{ $order->total_price }}</div>
-                <div>Transaction Time {{ $order->transaction_time }}</div>
-                <div>Total Item {{ $order->total_item }}</div>
+                <ul>Total Price : @rupiah($order->total_price) </ul>
+                <ul>Transaction : {{ $order->transaction_time }}</ul>
+                <ul>Total Item : {{ $order->total_item }}</ul>
                 </p>
 
 

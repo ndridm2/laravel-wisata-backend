@@ -70,7 +70,7 @@
                                                     {{ $product->category->name }}
                                                 </td>
                                                 <td>
-                                                    {{ $product->price }}
+                                                    @rupiah($product->price)
                                                 </td>
                                                 <td>
                                                     {{ $product->status }}
